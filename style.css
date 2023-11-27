@@ -6,7 +6,7 @@
 
 body {
     background-color: rgba(20, 243, 195, 0.6);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Muli', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,4 +19,14 @@ body {
 h3 {
     color: #fff;
     margin: 10px 0 20px;
+}
+
+.container {
+    width: 500px;
+}
+
+.textarea {
+    border: none;
+    display: block;
+    width: 100%;
 }
