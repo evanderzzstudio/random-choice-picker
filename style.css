@@ -52,9 +52,4 @@ h3 {
 
 .tag.highlight {
     background-color: #f16d00;
-    box-shadow:
-        2.3px 3.3px 13px rgba(0, 0, 0, 1),
-        6.3px 9px 36.1px rgba(0, 0, 0, 0.652),
-        15.1px 21.7px 86.8px rgba(0, 0, 0, 0.5),
-        50px 72px 288px rgba(0, 0, 0, 0.348);
 }
