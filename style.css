@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgba(20, 243, 195, 0.6);
+    background-color: rgba(31, 243, 20, 0.616);
     font-family: 'Muli', sans-serif;
     display: flex;
     flex-direction: column;
@@ -17,12 +17,14 @@ body {
 }
 
 h3 {
-    color: #fff;
-    margin: 10px 0 20px;
+    color: #0c0b0b;
+    margin: 10px 10 20px;
+    font-size: 20px;
 }
 
 .container {
     width: 500px;
+
 }
 
 .textarea {
@@ -33,7 +35,8 @@ h3 {
     font-family: inherit;
     padding: 10px;
     margin: 0 0 20px;
-    font-size: 20px;
+    font-size: 10px;
+
 }
 
 .tag {
@@ -44,8 +47,14 @@ h3 {
     margin: 0 5px 10px 0;
     font-size: 14px;
     display: inline-block;
+
 }
 
 .tag.highlight {
-    background-color: #f27713;
+    background-color: #f16d00;
+    box-shadow:
+        2.3px 3.3px 13px rgba(0, 0, 0, 1),
+        6.3px 9px 36.1px rgba(0, 0, 0, 0.652),
+        15.1px 21.7px 86.8px rgba(0, 0, 0, 0.5),
+        50px 72px 288px rgba(0, 0, 0, 0.348);
 }
